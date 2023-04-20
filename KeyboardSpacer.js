@@ -2,13 +2,13 @@
  * Created by andrewhurst on 10/5/15.
  */
 import React, { Component } from 'react';
+import { ViewPropTypes } from "deprecated-react-native-prop-types"
 import PropTypes from 'prop-types';
 import {
   Keyboard,
   LayoutAnimation,
   View,
   Dimensions,
-  ViewPropTypes,
   Platform,
   StyleSheet
 } from 'react-native';
